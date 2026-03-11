@@ -75,6 +75,7 @@
             btnConvert.TabIndex = 3;
             btnConvert.Text = "convert";
             btnConvert.UseVisualStyleBackColor = true;
+            btnConvert.Click += btnConvert_Click;
             // 
             // cmbBox_awal
             // 
@@ -92,6 +93,7 @@
             txtBox_awal.Name = "txtBox_awal";
             txtBox_awal.Size = new Size(212, 27);
             txtBox_awal.TabIndex = 5;
+            txtBox_awal.TextChanged += txtBox_awal_TextChanged;
             // 
             // txtBox_akhir
             // 
@@ -119,6 +121,7 @@
             cbmBox_akhir.Name = "cbmBox_akhir";
             cbmBox_akhir.Size = new Size(156, 28);
             cbmBox_akhir.TabIndex = 8;
+            cbmBox_akhir.SelectedIndexChanged += cbmBox_akhir_SelectedIndexChanged;
             // 
             // Form1
             // 
